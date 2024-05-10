@@ -25,7 +25,8 @@ body {
   }
 }
 
-h1 { text-align: center;}
+h2 { text-align: center;}
+
 table {
   border-collapse: collapse;
   border-radius: 5px;
@@ -50,4 +51,9 @@ input[type="text"] {
   background-color: white;
   width: 95%;
   border-radius: 5px;
+}
+
+#verlauf{
+  display: flex;
+  align-items: center;
 }
