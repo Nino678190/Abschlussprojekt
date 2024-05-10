@@ -9,7 +9,7 @@
         <title>
             Taschenrechner
         </title>
-        <script src="script.js"></script>
+        <script src="script.js">setInterval(check(), 10)</script>
     </head>
     <body>
       <h2>Taschenrechner</h2>
@@ -43,7 +43,7 @@
         <tr>
           <td><input type="button" value="." onclick="displayValue('.')" /> </td>
           <td><input type="button" value="0" onclick="displayValue('0')" /> </td>
-          <td><input type="button" value="=" onclick="verlauf()" /> </td>
+          <td><input type="button" value="=" onclick="verlauf()" id="enter"/> </td>
           <td><input type="button" value="*" onclick="displayValue('*')" /> </td>
         </tr>
       </table>
