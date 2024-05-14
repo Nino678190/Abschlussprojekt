@@ -22,5 +22,5 @@ function verlauf() {
   document.getElementById("result").value = y;
   let div = document.getElementById("verlauf"); 
   div.innerHTML = `<p>${z} = ${y}</p>`;
-  document.body.appendChild(div)
+  document.body.appendChild(div);
 }
