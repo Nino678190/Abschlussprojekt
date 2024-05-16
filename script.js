@@ -1,5 +1,5 @@
 function check(){
-  var input = document.getElementById("enter");
+  const input = document.getElementById("enter");
   input.addEventListener("keypress", verlauf);
   if(Event.key === "Enter"){
     Event.preventDefault();
@@ -16,11 +16,12 @@ function clearResult() {
 }
 
 function verlauf() {
-  let z = document.getElementById("result").value;
-  let x = document.getElementById("result").value;
-  let y = eval(x);
+  const z = document.getElementById("result").value;
+  const x = document.getElementById("result").value;
+  const y = eval(x);
   document.getElementById("result").value = y;
-  let div = document.getElementById("verlauf"); 
+  const div = document.getElementById("verlauf"); 
   div.innerHTML = `<p>${z} = ${y}</p>`;
-  document.body.appendChild(div);
+  document.body.appendChild("verlauf");
 }
+
