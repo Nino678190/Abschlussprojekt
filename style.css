@@ -20,6 +20,10 @@ body {
       background-color: #eeeeee;
       color: black;
   }
+  #result{
+    color: black !important;
+    background-color: #eeeeee !important;
+  }
 
 }
 
@@ -28,6 +32,10 @@ body {
       background-color: #111111;
       color: white;
   }
+  #result{
+    color: white !important;
+    background-color: #111111 !important;
+  } 
 }
 
 h2 { 
@@ -63,7 +71,11 @@ input[type="text"] {
   border-radius: 5px;
 }
 
-#verlauf{
+
+.verlauf{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+
 }

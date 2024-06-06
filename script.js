@@ -20,8 +20,11 @@ function verlauf() {
   const x = document.getElementById("result").value;
   const y = eval(x);
   document.getElementById("result").value = y;
-  const div = document.getElementById("verlauf"); 
+  const div = document.createElement("div"); 
+  const leer = document.createElement("div");
+  div.className = "verlauf";
   div.innerHTML = `<p>${z} = ${y}</p>`;
-  document.body.appendChild("verlauf");
+  document.body.appendChild(div);
+  document.body.appendChild(leer);
 }
 
