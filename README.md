@@ -1,3 +1,10 @@
 # Abschlussprojekt
 
-## Taschenrechner (In Bearbeitung) 
+## Taschenrechner (Fertig)
+
+## Funktionen
+- Plus
+- Minus
+- Mal
+- Geteilt
+- Verlauf
